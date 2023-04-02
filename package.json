@@ -1,0 +1,26 @@
+{
+  "license": "MIT",
+  "version": "0.0.0",
+  "name": "@vertis/amp",
+  "description": "AMP компоненты",
+  "author": "Sokolov Ruslan <sokollased@yandex.ru>",
+  "scripts": {
+    "build": "tsc",
+    "build:check": "tsc --noEmit",
+    "prepublishOnly": "rm -rf build && npm run build",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "ts-compile": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.2",
+    "react-dom": ">=17.0.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
