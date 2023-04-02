@@ -1,9 +1,21 @@
 {
   "license": "MIT",
   "version": "0.0.0",
-  "name": "@vertis/amp",
-  "description": "AMP компоненты",
-  "author": "Sokolov Ruslan <sokollased@yandex.ru>",
+  "name": "react-ampulse",
+  "description": "AMP react components for server rendering.",
+  "author": "Sokolov Ruslan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lased/react-ampulse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lased/react-ampulse/issues"
+  },
+  "homepage": "https://github.com/lased/react-ampulse#readme",
+  "peerDependencies": {
+    "react": ">=17.0.2",
+    "react-dom": ">=17.0.2"
+  },
   "scripts": {
     "build": "tsc",
     "build:check": "tsc --noEmit",
@@ -12,15 +24,18 @@
     "test:coverage": "jest --coverage",
     "ts-compile": "tsc --noEmit"
   },
-  "peerDependencies": {
-    "react": ">=17.0.2",
-    "react-dom": ">=17.0.2"
-  },
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "typescript": "^4.8.4"
-  }
+  },
+  "keywords": [
+    "amp",
+    "react",
+    "amp-react",
+    "react-amp",
+    "server-rendering"
+  ]
 }
